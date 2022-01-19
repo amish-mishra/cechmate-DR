@@ -6,7 +6,7 @@
 
 # Personal Fork
 This forked repo has the added **Delaunay-Rips (DR) filtration** method I have been working on for research at Florida Atlantic University. Essentially, the DR filtration has simplices found in the Delaunay Triangulation of the point cloud with the Vietoris-Rips weights on the simplices. My code is written in the file
-[`cechmate-DR/cechmate/filtrations/del_rips.py`](cechmate-DR/cechmate/filtrations/del_rips.py)
+[`cechmate-DR\cechmate\filtrations\del_rips.py`](https://github.com/amish-mishra/cechmate-DR/blob/master/cechmate/filtrations/del_rips.py)
 
 The method can be imported into a python file from this library by typing
 `from cechmate import DR`
