@@ -5,7 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Personal Fork
-This forked repo has the added *Delaunay-Rips (DR) filtration* method I have been working on for research at Florida Atlantic University. Essentially, the DR filtration has simplices found in the Delaunay Triangulation of the point cloud with the Vietoris-Rips weights on the simplices.
+This forked repo has the added _Delaunay-Rips (DR) filtration_ method I have been working on for research at Florida Atlantic University. Essentially, the DR filtration has simplices found in the Delaunay Triangulation of the point cloud with the Vietoris-Rips weights on the simplices. The method can be imported into a python file from this library by typing
+`from cechmate import DR`
 
 
 This library provides easy to use constructors for custom filtrations that are suitable for use with [Phat](https://github.com/xoltar/phat). 
