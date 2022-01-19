@@ -4,6 +4,10 @@
 [![codecov](https://codecov.io/gh/scikit-tda/cechmate/branch/master/graph/badge.svg)](https://codecov.io/gh/scikit-tda/cechmate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# Personal Fork
+This forked repo has the added *Delaunay-Rips (DR) filtration* method I have been working on for research at Florida Atlantic University. Essentially, the DR filtration has simplices found in the Delaunay Triangulation of the point cloud with the Vietoris-Rips weights on the simplices.
+
+
 This library provides easy to use constructors for custom filtrations that are suitable for use with [Phat](https://github.com/xoltar/phat). 
 Phat currently provides a clean interface for persistence reduction algorithms for boundary matrices. 
 This tool helps bridge the gap between data and boundary matrices.  
