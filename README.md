@@ -8,7 +8,10 @@
 This forked repo has the added **Delaunay-Rips (DR) filtration** method I have been working on for research at Florida Atlantic University. Essentially, the DR filtration has simplices found in the Delaunay Triangulation of the point cloud with the Vietoris-Rips weights on the simplices. The method can be imported into a python file from this library by typing
 `from cechmate import DR`
 
-Our goal is to showcase the computational efficiency and practical usage of Delaunay-Rips when compared to other methods such as Rips and Alpha.
+Our goal is to showcase the computational efficiency and practical usage of Delaunay-Rips when compared to other methods such as Rips and Alpha. Here is a graph illustrating the speed-up experienced using Delaunay-Rips
+
+![Delauanay-Rips run-time compared with Rips and Alpha](runtime_pts_7sec_cap_3.pdf){width=100%}
+
 
 ---------------------------------------------------
 
