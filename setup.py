@@ -59,5 +59,5 @@ setup(name='cechmate',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8'
       ],
-      keywords='persistent homology, persistence images, persistence diagrams, topology data analysis, algebraic topology, unsupervised learning, filtrations, Cech, Alpha, Rips'
+      keywords='persistent homology, persistence images, persistence diagrams, topology data analysis, algebraic topology, unsupervised learning, filtrations, Cech, Alpha, Rips, Delaunay-Rips'
      )

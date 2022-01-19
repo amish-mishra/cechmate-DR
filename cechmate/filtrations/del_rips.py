@@ -7,7 +7,7 @@ import warnings
 
 from .base import BaseFiltration
 
-__all__ = ["Del-Rips"]
+__all__ = ["DR"]
 
 
 class DR(BaseFiltration):
@@ -46,6 +46,12 @@ class DR(BaseFiltration):
             )
         maxdim = self.maxdim
         if not self.maxdim:
+            maxdim = X.shape[1] - 1
+        if maxdim > X.shape[1] - 1:
+            warnings.warn(
+                "maxdim exceeds computable homology dimension for input data using Delaunay-Rips; "
+                + "setting maxdim to maximum computable homology dimension for input data."
+            )
             maxdim = X.shape[1] - 1
 
         delaunay_faces = Delaunay(X).simplices   # Compute Delaunay Triangulation
