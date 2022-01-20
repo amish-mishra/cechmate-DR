@@ -16,7 +16,7 @@ else:
 with open('README.md') as f:
     long_description = f.read()
 
-setup(name='cechmate',
+setup(name='cechmate_DR',
       version=verstr,
       description='Custom filtration constructors for Python',
       long_description=long_description,
