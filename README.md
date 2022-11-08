@@ -11,7 +11,7 @@ This forked repo has the added **Delaunay-Rips (DR) filtration** method I have b
 You'll need pip version 20.2.3 (it appears that installing phat has issues with higher versions of pip)
 
 This repo can be installed using \
-`pip install git+git://github.com/amish-mishra/cechmate_DR.git`
+`pip install git+https://github.com/amish-mishra/cechmate_DR.git`
 
 The filtration can be imported into a python file and used as follows \
 `import cechmate as cm` \
