@@ -12,3 +12,13 @@ authors:
     email: amishra2019@fau.edu
     affiliation: Florida Atlantic University
     orcid: 'https://orcid.org/0000-0002-7162-3155'
+repository-code: 'https://github.com/amish-mishra/cechmate_DR'
+abstract: >-
+  This forked repo has the added Delaunay-Rips (DR)
+  filtration method I have been working on for
+  research at Florida Atlantic University.
+  Essentially, the DR filtration has simplices found
+  in the Delaunay Triangulation of the point cloud
+  with the Vietoris-Rips weights on the simplices. My
+  code is written in the file
+  cechmate_DR\cechmate\filtrations\del_rips.py
