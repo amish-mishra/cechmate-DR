@@ -18,7 +18,7 @@ The filtration can be imported into a python file and used as follows \
 `# X is your dataset` \
 `del_rips = cm.DR()` \
 `filtration = del_rips.build(X)` \
-`dgms_del_rips_ = del_rips.diagrams(filtration)`
+`dgms_del_rips = del_rips.diagrams(filtration)`
 
 Our goal is to showcase the computational efficiency and practical usage of Delaunay-Rips when compared to other methods such as Rips and Alpha. Here is a graph illustrating the speed-up experienced using Delaunay-Rips
 
